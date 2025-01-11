@@ -10,7 +10,7 @@ const LLM = () => {
 
   const handleGenerate = async () => {
     try {
-      const res = await axios.post('https://your-backend-url/generate', { prompt });
+      const res = await axios.post('https://nextjs-llm-play.onrender.com', { prompt });
       setResponse(res.data.response);
     } catch (error) {
       console.error("Error generating text:", error);
