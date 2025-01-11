@@ -1,3 +1,5 @@
+"use client"
+
 import { useState } from 'react';
 import axios from 'axios';
 import { Box, Input, Button, Text } from '@chakra-ui/react';
